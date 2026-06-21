@@ -106,9 +106,13 @@ public class basic {
             System.out.println("Do-While Loop: " + i);
             i++;
         }while (i<5);
-        
 
+        //4. for-each loop
 
+        int[] arr={1,2,3,4,5};
+        for (int element : arr) {
+            System.out.println("For-Each Loop: " + element);
+        }
 
     }
 }
